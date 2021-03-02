@@ -1,0 +1,169 @@
+/* Default Settings */
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    outline:none;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Poppins", sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+/* page container */
+.page-container {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    background: url("images/bg-intro-desktop.png");
+    background-color: rgba(255, 122, 122, 0.8) ;
+}
+@media screen and (max-width: 1060px) {
+    .page-container {
+        width: 100%;
+        min-height: 100%;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+    }
+}
+/*End of Page container */
+
+/* Section -1 */
+.section-1{
+    padding: 0 0rem 0  10rem;
+    width: 60%;
+}
+
+.section-1 h1 {
+    font-size: 5rem;
+    color: #eee;
+    line-height: 5.5rem;
+    width: 75%;
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+.section-1 p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #eee;
+    width: 65%;
+    text-align: left;
+}
+@media screen and (max-width: 1060px) {
+    .section-1 {
+        width: 100%;
+        padding: 0;
+        padding: 8rem 3rem 0 3rem;
+        
+    }
+    .section-1 h1{
+        font-size: 3.5rem;
+        width: 100%;
+        text-align: center;
+        font-weight: 600;
+    }
+    .section-1 p {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* End of section-1 */
+
+/*section-2*/
+.section-2 {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10rem 0;
+}
+
+@media screen and (max-width: 1060px) {
+    .section-2 {
+        width: 100%;
+    }
+
+}
+.section-2 h2{
+    width: 80%;
+    background-color:hsl(248, 32%, 49%);
+    padding: 1.5rem 1rem ;
+    margin-bottom: 2.5rem;
+    border: none;
+    border-radius: 1rem;
+    text-align: center;
+    color:#eee;
+    font-weight: 500;
+    box-shadow: 0 0.4rem 0.4rem rgba(0,0,0,0.4);
+}
+
+.form-1 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border:none;
+    border-radius: 1rem;
+    padding: 5rem 0;
+    box-shadow: 0 0.4rem 0.4rem rgba(0,0,0,0.4);
+}
+.row {
+    width: 100%;
+    text-align: center;
+} 
+
+.section-2 input {
+    min-width: 80%;
+    padding: 1.5rem 1rem ;
+    height: 5%;
+    margin-bottom: 2rem;
+    border-style: solid;
+    border-color: #d3d3d3;
+    border-width: 0.1rem;
+    border-radius: 1rem;
+}
+
+button {
+    width: 80%;
+    height: 5%;
+    padding: 1.5rem 1rem ;
+    background-color:  hsl(154, 59%, 51%);
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+.termsandservice {
+    width: 100%;
+    text-align: center;
+}
+.termsandservice p {
+    padding: 0.2rem 1.5rem ;
+}
+.termsandservice-link {
+    color: hsl(0, 100%, 74%)  ;
+    font-weight: 600;
+}
+/*End Of section-2*/
+
+/* footer */
+.attribution {
+    /* height: 10rem;
+    width: 100%;
+    background-color:hsl(248, 32%, 49%);;
+    display: flex;
+    align-items: center;
+} */
+
+/* end of footer */
