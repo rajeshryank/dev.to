@@ -18,7 +18,7 @@ html {
     display: flex;
     align-items: center;
     background: url("images/bg-intro-desktop.png");
-    background-color: rgba(255, 122, 122, 0.8) ;
+    background-color: rgba(255, 122, 122, 0.9) ;
 }
 @media screen and (max-width: 1060px) {
     .page-container {
@@ -72,6 +72,7 @@ html {
     }
 }
 
+
 /* End of section-1 */
 
 /*section-2*/
@@ -113,21 +114,54 @@ html {
     border-radius: 1rem;
     padding: 5rem 0;
     box-shadow: 0 0.4rem 0.4rem rgba(0,0,0,0.4);
+    position: relative;
 }
-.row {
+.form-control {
     width: 100%;
     text-align: center;
+    position: relative;
+
 } 
 
-.section-2 input {
+.form-control input {
     min-width: 80%;
     padding: 1.5rem 1rem ;
     height: 5%;
     margin-bottom: 2rem;
     border-style: solid;
     border-color: #d3d3d3;
-    border-width: 0.1rem;
+    border-width: 0.2rem;
     border-radius: 1rem;
+}
+
+
+.error-message {
+    position: absolute;
+    right: 10%;
+    bottom: 0.5rem;
+    color: rgb(255, 122, 122);
+    visibility: hidden;
+}
+
+.form-control i {
+    position: absolute;
+    right: 12%;
+    top: 1.5rem;
+    color: rgb(255, 122, 122);
+    font-size: 2.4rem;;
+    transform: visibility 2s;
+    visibility: hidden;
+}
+.form-control.error small {
+    visibility: visible;
+}
+
+.form-control.error input{
+    border-color: rgb(255, 122, 122) ;
+}
+
+.form-control.error i {
+    visibility: visible;
 }
 
 button {
@@ -144,6 +178,9 @@ button {
     font-weight: 500;
 }
 
+button:hover {
+    background-color: hsl(154, 52%, 65%);
+}
 .termsandservice {
     width: 100%;
     text-align: center;
@@ -158,12 +195,23 @@ button {
 /*End Of section-2*/
 
 /* footer */
-.attribution {
-    /* height: 10rem;
+footer {
     width: 100%;
-    background-color:hsl(248, 32%, 49%);;
-    display: flex;
+    height: 5rem;
     align-items: center;
-} */
-
+    position: relative;
+    background-color: hsl(248, 32%, 49%);
+}
+.attribution {
+    position:absolute;
+    top:40%;
+    width : 100%;
+    text-align: center;
+    color: #eee;
+    font-size: 1.1rem;
+    
+}
+.attribution a {
+    color: rgb(255, 122, 122);
+}
 /* end of footer */

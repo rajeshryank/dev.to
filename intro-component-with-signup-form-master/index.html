@@ -8,6 +8,8 @@
   
   <title>Frontend Mentor | Intro component with sign up form</title>
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <link rel="stylesheet" href="styles.css">
 
@@ -25,40 +27,44 @@
       <p class="description">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
       but understanding how developers think is invaluable. </p>  
     </section>
-  
+
     <section class="section-2">
       <h2 class="section-2-heading">Try it free 7 days then $20/mo. thereafter</h2>
-  
-      <form action="" class="form-1">
-        <div class="row fname">
-          <label for="fname"></label>
+    <form action="" id="form" class="form-1">
+        <div class="form-control ">
           <input type="text" id="fname" name="First Name" placeholder="First Name" required>
+            <i class="fas fa-exclamation-circle"></i>
+            <small class="error-message" id="error1">First Name cannot be empty.</small>
         </div>
 
-        <div class="row lname">
-          <label for="lname"></label>
+        <div class="form-control ">
           <input type="text" id="lname" name="Last Name" placeholder="Last Name" required>
+          <i class="fas fa-exclamation-circle"></i>
+          <small class="error-message" id="error2">Last Name cannot be empty.</small>
+
         </div>
-        
-        <div class="row email">
-          <label for="email"></label>
+        <div class="form-control ">
           <input type="email" id="email" name="email" placeholder="Email Address" required>
+          <i class="fas fa-exclamation-circle"></i>
+          <small class="error-message" id="error3">Email cannot be empty.</small>
         </div>
-        
-        <div class="row password">
-          <label for="password"></label>
+
+        <div class="form-control ">
           <input type="password" id="password" name="password" placeholder="password" required>
+          <i class="fas fa-exclamation-circle"></i>
+          <small class="error-message" id="error4">Password cannot be empty.</small>
+      </div>
+
+        <div class="form-control">
+          <button class="button" type="button" id="signup-button">Claim your free trial</button>
         </div>
-        <div class="row signup-button">
-          <button class="button">Claim your free trial</button>
-        </div>
+
         <div class="termsandservice">
           <p > By clicking the button, you are agreeing to our 
             <a class="termsandservice-link" href="#">Terms and Services</a>
-            </p>
+          </p>
         </div>
-        </div>
-      </form>
+    </form>
     </section>
   </div>
   
@@ -68,5 +74,8 @@
       Coded by <a href="#">Rajesh</a>.
     </p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
