@@ -18,7 +18,7 @@ html {
     display: flex;
     align-items: center;
     background: url("images/bg-intro-desktop.png");
-    background-color: rgba(255, 122, 122, 0.9) ;
+    background-color: rgba(255, 122, 122) ;
 }
 @media screen and (max-width: 1060px) {
     .page-container {
