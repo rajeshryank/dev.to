@@ -39,7 +39,7 @@ html {
 
 .section-1 h1 {
     font-size: 5rem;
-    color: #eee;
+    color: #fefeff;
     line-height: 5.5rem;
     width: 75%;
     text-align: left;
@@ -49,7 +49,7 @@ html {
 .section-1 p {
     font-size: 1.5rem;
     line-height: 2.5rem;
-    color: #eee;
+    color: #fefeff;
     width: 65%;
     text-align: left;
 }
@@ -89,23 +89,23 @@ html {
     .section-2 {
         width: 100%;
     }
-
 }
+
 .section-2 h2{
-    width: 80%;
+    width: 75%;
     background-color:hsl(248, 32%, 49%);
     padding: 1.5rem 1rem ;
     margin-bottom: 2.5rem;
     border: none;
     border-radius: 1rem;
     text-align: center;
-    color:#eee;
+    color:#fefeff;
     font-weight: 500;
     box-shadow: 0 0.4rem 0.4rem rgba(0,0,0,0.4);
 }
 
 .form-1 {
-    width: 80%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -129,11 +129,15 @@ html {
     height: 5%;
     margin-bottom: 2rem;
     border-style: solid;
-    border-color: #d3d3d3;
+    border-color: #a5a2a2;
     border-width: 0.2rem;
-    border-radius: 1rem;
+    border-radius: 0.7rem;
+    transition : border-color 0.5s;
 }
 
+.form-control input:focus {
+    border-color: black;
+}
 
 .error-message {
     position: absolute;
