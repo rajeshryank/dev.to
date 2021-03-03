@@ -39,7 +39,7 @@ html {
 
 .section-1 h1 {
     font-size: 5rem;
-    color: #fefeff;
+    color: #fff;
     line-height: 5.5rem;
     width: 75%;
     text-align: left;
@@ -49,7 +49,7 @@ html {
 .section-1 p {
     font-size: 1.5rem;
     line-height: 2.5rem;
-    color: #fefeff;
+    color: #fff;
     width: 65%;
     text-align: left;
 }
@@ -99,7 +99,7 @@ html {
     border: none;
     border-radius: 1rem;
     text-align: center;
-    color:#fefeff;
+    color:#fff;
     font-weight: 500;
     box-shadow: 0 0.4rem 0.4rem rgba(0,0,0,0.4);
 }
@@ -136,7 +136,7 @@ html {
 }
 
 .form-control input:focus {
-    border-color: black;
+    border-color: #000;
 }
 
 .error-message {
@@ -180,6 +180,7 @@ button {
     color: #fff;
     margin-bottom: 2rem;
     font-weight: 500;
+    transition: background-color 0.4s;
 }
 
 button:hover {
@@ -208,11 +209,11 @@ footer {
 }
 .attribution {
     position:absolute;
-    top:30%;
+    top:20%;
     width : 100%;
     text-align: center;
     color: #eee;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     
 }
 .attribution a {
