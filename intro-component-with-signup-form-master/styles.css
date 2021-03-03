@@ -50,7 +50,7 @@ html {
     font-size: 1.5rem;
     line-height: 2.5rem;
     color: #fff;
-    width: 65%;
+    width: 82%;
     text-align: left;
 }
 @media screen and (max-width: 1060px) {
@@ -140,6 +140,7 @@ html {
 }
 
 .error-message {
+    font-size: 0.95rem;
     position: absolute;
     right: 10%;
     bottom: 0.5rem;
@@ -178,7 +179,7 @@ button {
     cursor: pointer;
     text-transform: uppercase;
     color: #fff;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-weight: 500;
     transition: background-color 0.4s;
 }
