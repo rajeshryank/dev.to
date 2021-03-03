@@ -116,6 +116,12 @@ html {
     box-shadow: 0 0.4rem 0.4rem rgba(0,0,0,0.4);
     position: relative;
 }
+
+@media screen and (max-width: 1060px) {
+    .form-1 {
+        width: 90%;
+    }
+}
 .form-control {
     width: 100%;
     text-align: center;
