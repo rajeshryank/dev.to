@@ -5,6 +5,7 @@ toggleButton.addEventListener('click', event=> {
  changeText1()
  changeText2()
  changeText3()
+ changeColor()
 })
 
 function  changeText1 () {
@@ -30,4 +31,7 @@ function  changeText3 () {
     } else {
         priceElementThree.innerHTML = "&dollar;399.99"
     }
+}
+function changeColor () {
+    toggleButton.style.background =  'hsl(236, 72%, 79%)';
 }
