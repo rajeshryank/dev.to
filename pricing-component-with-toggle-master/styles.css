@@ -260,7 +260,7 @@ html {
 
 .attribution {
     position: relative;
-    top:20%;
+    bottom:0;
     width : 100%;
     text-align: center;
     color: #000;
