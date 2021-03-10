@@ -1,0 +1,136 @@
+/* default settings */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+    font-family: "Kumbh sans",sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: hsl(185, 75%, 39%);
+    overflow: hidden;
+}
+/* end of default settings */
+
+
+/* background img settings */
+
+.background-1 img {
+    position: absolute;
+    top:0;
+    left:0;
+    transform: translate(-20%, -55%);
+}
+
+.background-2 img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(20%, 65%);
+}
+
+@media screen and (max-width:1060px) {
+    .background-1 img {
+    transform: translate(-65%, -60%);
+    }
+    .background-2 img {
+        transform: translate(65%, 60%)
+    }
+}
+/* end of background settings */
+
+/* card container */
+.card-container {
+    position: absolute;
+    width: 35rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0 7rem rgba(0,0,0, 0.4);
+}
+
+@media screen and (max-width:500px){
+    .card-container {
+        width: 70%;
+    }
+
+}
+.card-cover img {
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+}
+
+.card-top {
+    position: relative;
+    height: 15rem;
+    letter-spacing: 0.1rem;
+    }
+    .card-photo {
+    position: absolute;
+    top: 0.1rem;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    }
+    .card-info {
+    position:absolute;
+    top:65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: hsl(227, 10%, 46%);
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    }
+    .card-top h2 {
+        font-size: inherit;
+        color: #000;
+        display: inline;
+    }
+    .card-top p {
+       font-size: 1.3rem;
+
+    }
+
+.hr-line {
+    display: block;
+    content: '';
+    height: 1.2px;
+    width: 100%;
+    background-color:hsl(227, 10%, 90%);
+}
+
+.card-social {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem 0 2rem 0 ;
+    line-height: 2rem;
+    }
+    .card-social p {
+        font-weight: 500;
+        color: hsl(227, 10%, 60%);
+        letter-spacing: 0.2rem;
+        font-size: 1rem;
+    }
+/*End of card container*/
+
+.attribution {
+    position: absolute;
+    bottom:0;
+    width : 100%;
+    text-align: center;
+    color: #000;
+    font-size: 1.4rem;
+    
+}
+.attribution a {
+    color: #fff;
+}
