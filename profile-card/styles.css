@@ -16,35 +16,13 @@ html {
 body {
     background-color: hsl(185, 75%, 39%);
     overflow: hidden;
+    background-image :url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg) ;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position:bottom 40vh right 48vw,top 50vh left 48vw;
 }
 /* end of default settings */
 
-
-/* background img settings */
-
-.background-1 img {
-    position: absolute;
-    top:0;
-    left:0;
-    transform: translate(-20%, -55%);
-}
-
-.background-2 img {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    transform: translate(20%, 65%);
-}
-
-@media screen and (max-width:1060px) {
-    .background-1 img {
-    transform: translate(-65%, -60%);
-    }
-    .background-2 img {
-        transform: translate(65%, 60%)
-    }
-}
-/* end of background settings */
 
 /* card container */
 .card-container {
